@@ -9,7 +9,6 @@ class Aluno(var nome: String, var notas: Array<Double>) {
         } else {
             "Reprovado , Média do aluno $nome: $media"
         }
-
     }
 
     fun programa() {
